@@ -1,0 +1,34 @@
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore Makefiles
+!Makefile
+
+# Unignore all dirs
+!*/
+
+# Ignore `bin` dir
+bin/
+
+#Object files
+
+*.o
+*.elf
+*.hex
+
+#Libraries
+
+*.a
+
+#Shared objects
+
+*.so
+
+#Executables
+
+*.out
+
+.vscode
