@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Challenges : Mellivora - Mellivora, the CTF engine</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://ctf.plil.fr/img/favicon.png" type="image/png" />
+
+    <!-- CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://ctf.plil.fr/css/mellivora.css" rel="stylesheet"><script type="text/javascript">
+        var global_dict = {};
+        global_dict["user_id"] = "86"
+    </script>
+</head>
+
+<body>
+<div class="page">
+    <nav class="header" id="header">
+        <div id="header-inner">
+            <div id="header-logo">
+                <a href="https://ctf.plil.fr/">
+                    <h3 id="site-logo-text">Mellivora</h3>
+                    <div id="site-logo">
+                        <object data="https://ctf.plil.fr/img/mellivora.svg" type="image/svg+xml"></object>
+                    </div>
+                </a>
+            </div>
+            <div id="header-menu">
+                <ul class="nav nav-pills pull-right" id="menu-main">
+                            <li><a href="https://ctf.plil.fr/home">Home</a></li>
+                            <li><a href="https://ctf.plil.fr/challenges">Challenges</a></li>
+                            <li><a href="https://ctf.plil.fr/hints">Hints</a></li>
+                            <li><a href="https://ctf.plil.fr/scores">Scores</a></li>
+                            <li><a href="https://ctf.plil.fr/profile">Profile</a></li>
+                            
+                            <li>
+    <form action="/actions/logout" method="post">
+        <input type="hidden" name="xsrf_token" value="pSyKW8LtLe0tL/XZ8I6CuzdLiDjX0kL7wPLCQzdSUGEW6ioAEfRbSj+7okCko60s" />
+        <button type="submit" id="logout-button">Log out</button>
+    </form>
+    </li>
+                            
+                </ul>
+            </div>
+        </div>
+    </nav><!-- navbar -->
+
+    <div class="container" id="body-container">
+
+        <div id="content-container">
+        <div id="categories-menu">
+<ul id="categories-menu"><li class="disabled">
+        <a data-container="body" data-toggle="tooltip" data-placement="top" class="has-tooltip" title="Available in -5 months, 4 days.">DS IMA2a5 2019/2020</a>
+        </li><li class="disabled">
+        <a data-container="body" data-toggle="tooltip" data-placement="top" class="has-tooltip" title="Available in -3 months, 10 days.">DS IMA5sc 2019/2020</a>
+        </li><li class="disabled">
+        <a data-container="body" data-toggle="tooltip" data-placement="top" class="has-tooltip" title="Available in -1 month, 15 days.">GIS3 exercices</a>
+        </li><li  class="active"><a href="https://ctf.plil.fr/challenges?category=ima4-sc-psr-2019-2020">IMA4 SC PSR 2019-2020</a></li></ul>
+</div><div id="challenges-container" class="panel-group">
+    <div class="panel panel-success challenge-container">
+        <div class="panel-heading">
+            <h4 class="challenge-head">
+            <a href="challenge?id=38">Echauffement</a> (1pts) <span class="glyphicon glyphicon-ok"></span><img src="https://ctf.plil.fr/img/award_star_bronze_3.png" class="has-tooltip" data-toggle="tooltip" data-placement="right" title="Third to solve this challenge!" alt="Third to solve this challenge!" /></h4></div>
+
+    <div class="panel-body">
+            <div class="challenge-description">
+                Pour débuter le DS, voici un petit échauffement. Vous trouverez à l'adresse un exécutable. Il prend en entrée une chaîne de caractères correspondant à un mot de passe. Si ce dernier est bon, le drapeau pour cet exercice sera affiché.<br />
+
+            </div> <!-- / challenge-description --><div class="challenge-files">
+        <p>
+            <div>
+            <span class="glyphicon glyphicon-floppy-save"></span>
+            <span class="challenge-attachment">
+            <a class="has-tooltip" data-toggle="tooltip" data-placement="right" title="16.41 KB" href="download?file_key=56046d19170a176d50349a3602a6c4ab1abad88a86ab56a5963a1ea2b102e4c2&amp;team_key=f9f44997f100ceea1f7d11592a142b93c114c2f8347d4c9c2922c01312d1d95e">question1</a>
+            <span class="has-tooltip" data-toggle="tooltip" data-placement="right" title="MD5 file hash"><pre class="inline-pre">87ea8a7a775ca951dd69966f25c3e718</pre></span>
+            </span>
+            </div>
+        <p>
+        </p></div> <!-- / challenge-files -->
+    </div> <!-- / panel-body -->
+    </div> <!-- / challenge-container -->
+    <div class="panel panel-success challenge-container">
+        <div class="panel-heading">
+            <h4 class="challenge-head">
+            <a href="challenge?id=40">Super Mario</a> (1pts) <span class="glyphicon glyphicon-ok"></span></h4></div>
+
+    <div class="panel-body">
+            <div class="challenge-description">
+                Peach souhaite envoyer un message chiffré à Luigi. Lorsqu'il le recevra, il lui enverra à son tour un message chiffré qui permettra à Peach d'afficher le flag. Le problème est que Peach et Luigi n'utilise pas le même protocole réseau. La série de questions à partir de maintenant s'appuiera sur les deux binaires disponibles ici. Vous devez pour chaque question rédiger des explications dans le fichier 'commentaires.md' que vous mettrez dans votre projet sur archives.plil.fr.<br />
+Première question : quel est le protocole de niveau 4 utilisé par Peach ? Expliquer le cheminement que vous avez suivi pour le déterminer. Le flag correspond au protocole en majuscule.
+            </div> <!-- / challenge-description --><div class="challenge-files">
+        <p>
+            <div>
+            <span class="glyphicon glyphicon-floppy-save"></span>
+            <span class="challenge-attachment">
+            <a class="has-tooltip" data-toggle="tooltip" data-placement="right" title="17.51 KB" href="download?file_key=4b9a8cd9f80a1e94415bb090002d2582fa4f56932fe781430b9977f401f4a54c&amp;team_key=f9f44997f100ceea1f7d11592a142b93c114c2f8347d4c9c2922c01312d1d95e">luigi</a>
+            <span class="has-tooltip" data-toggle="tooltip" data-placement="right" title="MD5 file hash"><pre class="inline-pre">435d8f13152731fefcf86698235bd3e6</pre></span>
+            </span>
+            </div>
+        <p>
+        
+        <p>
+            <div>
+            <span class="glyphicon glyphicon-floppy-save"></span>
+            <span class="challenge-attachment">
+            <a class="has-tooltip" data-toggle="tooltip" data-placement="right" title="17.44 KB" href="download?file_key=c5422f76633b18671e92afac9b08b0648d034f44b1996692f52ab7396f314629&amp;team_key=f9f44997f100ceea1f7d11592a142b93c114c2f8347d4c9c2922c01312d1d95e">peach</a>
+            <span class="has-tooltip" data-toggle="tooltip" data-placement="right" title="MD5 file hash"><pre class="inline-pre">835e2ffcabdefd867c28557d93cf9ae7</pre></span>
+            </span>
+            </div>
+        <p>
+        </p></div> <!-- / challenge-files -->
+    </div> <!-- / panel-body -->
+    </div> <!-- / challenge-container -->
+    <div class="panel panel-success challenge-container">
+        <div class="panel-heading">
+            <h4 class="challenge-head">
+            <a href="challenge?id=41">Le port épique</a> (1pts) <span class="glyphicon glyphicon-ok"></span><img src="https://ctf.plil.fr/img/award_star_silver_3.png" class="has-tooltip" data-toggle="tooltip" data-placement="right" title="Second to solve this challenge!" alt="Second to solve this challenge!" /></h4></div>
+
+    <div class="panel-body">
+            <div class="challenge-description">
+                Quel est le numéro de port utilisé par Peach pour envoyer son message ?<br />
+Ecrivez vos explications dans 'commentaires.md'
+            </div> <!-- / challenge-description -->
+    </div> <!-- / panel-body -->
+    </div> <!-- / challenge-container -->
+    <div class="panel panel-success challenge-container">
+        <div class="panel-heading">
+            <h4 class="challenge-head">
+            <a href="challenge?id=42">Le port salut</a> (1pts) <span class="glyphicon glyphicon-ok"></span><img src="https://ctf.plil.fr/img/award_star_silver_3.png" class="has-tooltip" data-toggle="tooltip" data-placement="right" title="Second to solve this challenge!" alt="Second to solve this challenge!" /></h4></div>
+
+    <div class="panel-body">
+            <div class="challenge-description">
+                Quel est le port utilisé par Luigi ?<br />
+
+            </div> <!-- / challenge-description -->
+    </div> <!-- / panel-body -->
+    </div> <!-- / challenge-container -->
+    <div class="panel panel-success challenge-container">
+        <div class="panel-heading">
+            <h4 class="challenge-head">
+            <a href="challenge?id=39">Same player, play again.</a> (4pts) <span class="glyphicon glyphicon-ok"></span></h4></div>
+
+    <div class="panel-body">
+            <div class="challenge-description">
+                Vous devez trouver le mot de passe afin d'afficher le flag
+            </div> <!-- / challenge-description --><div class="challenge-files">
+        <p>
+            <div>
+            <span class="glyphicon glyphicon-floppy-save"></span>
+            <span class="challenge-attachment">
+            <a class="has-tooltip" data-toggle="tooltip" data-placement="right" title="16.49 KB" href="download?file_key=f4eec0452029b6705a86e615db23c4786732889177e0952c05c7c8d9f5eacd23&amp;team_key=f9f44997f100ceea1f7d11592a142b93c114c2f8347d4c9c2922c01312d1d95e">question2</a>
+            <span class="has-tooltip" data-toggle="tooltip" data-placement="right" title="MD5 file hash"><pre class="inline-pre">3f36636168a9244c282b0a3a6801e925</pre></span>
+            </span>
+            </div>
+        <p>
+        </p></div> <!-- / challenge-files -->
+    </div> <!-- / panel-body -->
+    </div> <!-- / challenge-container -->
+    <div class="panel panel-success challenge-container">
+        <div class="panel-heading">
+            <h4 class="challenge-head">
+            <a href="challenge?id=43">Ceci n'est pas une pipe</a> (10pts) <span class="glyphicon glyphicon-ok"></span><img src="https://ctf.plil.fr/img/award_star_gold_3.png" class="has-tooltip" data-toggle="tooltip" data-placement="right" title="First to solve this challenge!" alt="First to solve this challenge!" /></h4></div>
+
+    <div class="panel-body">
+            <div class="challenge-description">
+                Maintenant que vous avez les informations nécessaires, vous devez réaliser un programme permettant de relier Peach et Luigi. Pour cela; écrivez le programme mario.c. Vous n'oublierez pas de faire un Makefile pour la compilation. Ces fichiers seront à déposer dans votre projet sur archives.plil.fr.<br />
+Si Mario travaille correctement, Peach affichera le bon flag
+            </div> <!-- / challenge-description -->
+    </div> <!-- / panel-body -->
+    </div> <!-- / challenge-container --></div> <!-- / challenges-container-->
+
+    </div> <!-- / content container -->
+
+</div> <!-- /container -->
+
+<div id="footer">
+    <div class="fade">
+        <div id="footer-logo"/>
+            <object data="https://ctf.plil.fr/img/mellivora.svg" type="image/svg+xml"></object>
+        </div>
+        <p>Powered by <a href="https://github.com/Nakiami/mellivora">Mellivora</a></p>
+    </div>
+</div>
+
+</div> <!-- /page -->
+
+<!-- JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://ctf.plil.fr/js/mellivora.js"></script>
+
+</body>
+</html>

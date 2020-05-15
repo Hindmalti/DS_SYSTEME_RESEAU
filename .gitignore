@@ -6,7 +6,7 @@
 
 # Unignore Makefiles
 !Makefile
-
+!*.html
 # Unignore all dirs
 !*/
 
